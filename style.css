@@ -1,0 +1,44 @@
+.red {
+    color: red;
+}
+.blue {
+    color: blue;
+}
+#back {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+body {
+    width: 1400px;
+    height: 1000px;
+}
+#progresscontainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: lightgray;
+    width: 100%;
+    height: 10px;
+}
+#progressbar {
+    background-color: blue;
+    width: 0%;
+    height: 100%;
+}
+.mouseout {
+    background-color: greenyellow;
+    color: red;
+    width: 70px;
+}
+.mouseover {
+    background-color: red;
+    color: greenyellow;
+    width: 110px;
+}
